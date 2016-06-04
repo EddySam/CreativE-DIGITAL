@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+
+body {
+    background: #ebebeb;
+}
+
+header {
+    background: url("../img/head_bg.png") no-repeat;
+    background-size: cover;
+
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+header .navbar .nav {
+    margin: 25px 0 0 0;
+}
+
+header .navbar .nav > li > a {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navbar .nav > li > a:hover {
+    text-decoration: none;
+    color: #2aabd2;
+}
+
+header h1 {
+    font-family: "Proxima Nova", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 68px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.text-for-head {
+    padding: 313px 0 500px 0;
+}
+
+.text-for-head h2 {
+    font: 30px 'PT Sans', sans-serif;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.about_us {
+    padding: 125px 0 0 110px;
+}
+
+.img-about-us {
+    position: relative;
+}
+
+.img-about-us .for-position {
+    position: absolute;
+    z-index: 2;
+    top: 13%;
+    left: 44%;
+}
+
+.about_us_in {
+    padding-left: 0;
+}
+
+.img-about-us p {
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 28%;
+    color: #fff;
+    font: 600 36px "Proxima Nova", sans-serif;
+    text-transform: uppercase;
+}
+
+.learn-more {
+    padding-top: 75px;
+}
+
+.learn-more p {
+    font: 20px 'PT Sans', sans-serif;
+    color: #665f60;
+}
+
+.learn-more a {
+    border: 1px solid #7d7a7c;
+    color: #7d7a7c;
+    font: 20px 'PT Sans', sans-serif;
+    font-style: italic;
+    padding: 17px 45px;
+    margin: auto;
+}
+
+.learn-more a:hover {
+    text-decoration: none;
+}
+
+.sub-about-us {
+    padding-top: 110px;
+
+}
+
+.sub-about-us .col-lg-8 .col-md-6, .sub-about-us .col-lg-8, .sub-about-us .col-lg-4 {
+    padding: 0;
+
+}
+
+.sub-about-us .col-lg-8 .col-md-6 {
+    height: 385px;
+}
+
+.sub-about-us .col-lg-4 {
+    height: 770px;
+    background: url("../img/unsplash.jpg") no-repeat;
+    background-size: cover;
+}
+
+.sub-about-us .col-lg-8 .col-md-6 img, .sub-about-us .col-lg-4 img {
+    padding: 100px 0 0 0;
+}
+.sub-about-us .col-lg-8 .col-md-6 h3{
+    font: 700 24px 'PT Sans', sans-serif;
+    margin-top: 21px;
+    color: #665f60;
+}
+.sub-about-us .col-lg-8 .col-md-6 h5{
+    font:18px 'PT Sans', sans-serif;
+    font-style: italic;
+    color: #6e6768;
+}
+.gray {
+    background: #dbdbdb;
+}
+.RECENT-WORKS{
+    background: url("../img/bg-worck.jpg") no-repeat;
+    background-size:cover ;
+    padding:48px 0px 60px ;
+}
+.RECENT-WORKS h2{
+    font: 600 36px "Proxima Nova", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 30px 0 68px;
+}
+.RECENT-WORKS ul li{
+    float: left;
+
+}
+.RECENT-WORKS ul{
+    content: "";
+    clear: both;
+}
